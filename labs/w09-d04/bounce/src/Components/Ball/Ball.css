@@ -1,0 +1,13 @@
+* {
+  background-color: green;
+}
+
+img {
+  position: relative;
+  animation: moveimage 1s infinite ease-in-out alternate;
+}
+
+@keyframes moveimage {
+  from {margin-top: 0px;}
+  to {margin-top: 120px;}
+}
