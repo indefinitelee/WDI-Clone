@@ -1,0 +1,37 @@
+body {
+  background-image: url(../img/rainbow-bg.jpg);
+}
+.main {
+/*  display: flex;
+  justify-content: center;*/
+  align-content:
+  height: 1000px;
+  width: 1000px;
+  background-color: white;
+  margin: 0 auto;
+  align-content: center;
+}
+.dog {
+/*  display: inline-block;*/
+}
+img {
+  border-radius: 50%;
+   height: 300px;
+   width: 300px;
+   float: left;
+   display: inline;
+}
+h1 {
+  font-family: Cabin Sketch;
+  color: white;
+  padding-top: 100px;
+}
+.banner {
+  height: 300px;
+  width: 1000px;
+  background-color: black;
+  text-align: center;
+}
+.nav li {
+ display: inline;
+}

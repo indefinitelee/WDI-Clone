@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(https://fonts.google.com/specimen/Open+Sans);
+}
+
+p {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+li {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+footer {
+  font-size: 9px;
+  font-weight: 500;
+}
+.get {
+  font-size: 24px;
+  font-weight: 800;
+  background-color: #f9e42e;
+  color:  #033048;
+}
+.sign {
+  background-color: #033048
+  color: white;
+
+}
+.head {
+  font-weight: bolder;
+  font-size: 24px;
+}
+.bott {
+  font-weight: bold,
+  font-size: 20px;
+  color: #f9e42e;
+}
+
+.piece {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.testimonial {
+  color: white;
+}
+.first {
+  background-image: url('../images/header_bg.jpg');
+  height: 100vh;
+  background-attachment: fixed;
+}
+.second {
+  color: #606161;
+}

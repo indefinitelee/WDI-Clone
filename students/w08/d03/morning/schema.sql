@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS Movies;
+DROP TABLE IF EXISTS MovieTheaters;
+
+ CREATE TABLE Movies (
+   Code INTEGER PRIMARY KEY NOT NULL,
+   Title TEXT NOT NULL,
+   Rating TEXT
+ );
+
+ CREATE TABLE MovieTheaters (
+   Code INTEGER PRIMARY KEY NOT NULL,
+   Name TEXT NOT NULL,
+   Movie INTEGER REFERENCES Movies(Code)
+ );

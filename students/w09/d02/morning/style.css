@@ -1,0 +1,91 @@
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #FF5252;
+  color: black;
+}
+
+#content-wrapper {
+/*can't set top bottom left right without setting position. positions relative to nearest relative that has a position */
+  position: absolute;
+  padding: 5%;
+  width: 80%;
+  background-color: lightblue;
+  box-shadow: -15px 0px 10px 1px black;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 10;
+  transition: all 0.5s ease;
+}
+
+#content-wrapper.open {
+  left: 150px;
+}
+
+article {
+  position: relative;
+  display: inline-block;
+  background-color: gray;
+  border-radius: 0px 20px 20px 20px;
+  width: 15%;
+  margin: 2%;
+  padding: 5%;
+  min-height: 20%;
+}
+
+#hamburger-button {
+  display: inline-block;
+  vertical-align: top;
+  height: 15px;
+  width: 20px;
+  margin-bottom: 3px;
+ }
+
+#hamburger-button:hover {
+  cursor: pointer;
+}
+
+#hamburger-button > span {
+  display: block;
+  height: 4px;
+  margin-bottom: 4px;
+  width: 20px;
+  color: white;
+  background-color: white;
+
+}
+
+#menu-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+}
+
+ul#menu {
+  list-style-type: none;
+  padding: 2px;
+}
+
+ul#menu li {
+  bottom-border: 2px black;
+}
+
+ul#menu li.selected {
+  color: orange;
+}
+
+ul#menu > li > a {
+  display: block;
+  padding: 2px;
+}
+
+ul#menu > li > a:link, a:visited {
+  color: rebeccapurple;
+}
+
+ul#menu > li > a:hover {
+  color: red;
+}

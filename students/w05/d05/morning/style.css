@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: mediumpurple;
+
+}
+
+div {
+  background-color: seashell;
+    width: 50%;
+  height: 90vh;
+  margin: 5vh auto;
+  padding: 1em;
+  box-sizing: border-box;
+  animation: divcolor 6s;
+  animation-iteration-count: 5;
+}
+
+section {
+  background-image: url("https://media.giphy.com/media/3oEduPc499UREf2LO8/giphy.gif");
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: bodymovin 5s;
+  animation-iteration-count: 5;
+
+}
+
+div, section {
+  border: 1px solid honeydew;
+  border-radius: 3px;
+}
+#grad {
+   background: repeating-radial-gradient(#0000CD , #FFC0CB  10%, #BA55D3  15%);
+}
+
+@keyframes bodymovin {
+    0%   {top: 10px; left: 50px;}
+    25%  {top: 200px; left: 350px;}
+    50%  {top: 500px; left: -200px;}
+    75%  {top: 100px; left: -250px;}
+    100% {top: 0px; left: 0px;}
+
+}
+
+@keyframes divcolor {
+    0%   {top: 10px; left: 50px;}
+    25%  {top: 20px; left: -350px;}
+    50%  {top: 50px; left: -200px;}
+    75%  {top: 100px; left: -250px;}
+    100% {top: 0px; left: 0px;}
+}
